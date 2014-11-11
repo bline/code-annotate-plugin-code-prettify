@@ -1,0 +1,52 @@
+{
+  "name": "code-annotate-plugin-code-prettify",
+  "version": "1.0.0",
+  "description": "highlight code in code-annotate with google-code-prettify",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "peerDependencies": {
+    "code-annotate": "1.x.x"
+  },
+  "dependencies": {
+    "lodash": "2.4.x"
+  },
+  "devDependencies": {
+    "del": "^0.1.3",
+    "gulp": "^3.8.10",
+    "gulp-coverage": "^0.3.31",
+    "gulp-coveralls": "^0.1.3",
+    "gulp-jshint": "^1.9.0",
+    "gulp-livereload": "^2.1.1",
+    "gulp-load-plugins": "^0.7.1",
+    "gulp-mocha": "^1.1.1",
+    "gulp-plumber": "^0.6.6",
+    "jshint-table-reporter": "^0.1.0",
+    "opn": "^1.0.0"
+  },
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bline/code-annotate-plugin-code-prettify.git"
+  },
+  "keywords": [
+    "code-annotate",
+    "annotate",
+    "highlight",
+    "syntax",
+    "google-code-prettify"
+  ],
+  "author": {
+    "name": "Scott Beck (@bline)",
+    "email": "scottbeck@gmail.com",
+    "url": "https://github.com/bline"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bline/code-annotate-plugin-code-prettify/issues"
+  },
+  "homepage": "https://github.com/bline/code-annotate-plugin-code-prettify"
+}
